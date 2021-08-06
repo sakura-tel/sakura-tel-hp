@@ -1,0 +1,38 @@
+body{
+  background-image: url(https://lh3.googleusercontent.com/pw/AM-JKLW3-zko41TfNh_xGUzRRX6Z0nIucolURpNuSTGSUAwmf19oQdtJurb_d2rSaixIBFe4deoiU55oSpuT_w1pqXfw9P9A2ivPyj8VnFAVdEZMlIkSTuSNUk711H9vxwWcgN99Dm2WaCTrJvmnYf3QJ0MXrg=w756-h780-no?authuser=0);
+  background-size: cover;
+}
+h1{
+  text-align:center;
+}
+h2{
+  text-align: center;
+  color: dodgerblue;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+div#container {
+  width: 100%; /* 全体の幅を指定 */
+}
+div#main {
+  width: 80%; /* メインコンテンツの幅を指定 */
+  float: right; /* 右にフロート */
+}
+div#sub {
+  width: 15%; /* サブコンテンツの幅を指定 */
+  float: left; /* 左にフロート */
+  background-color: #F1E6C9;
+  height: 100vh;
+  list-style-type: square;
+  margin: -10px;
+}
+li {
+  list-style-type: square;
+  margin: 10px;
+}
+.SideBySide p{
+  display:inline-block;
+  vertical-align:top; /*縦方向の揃え位置を指定*/
+ }
