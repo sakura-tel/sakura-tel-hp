@@ -1,0 +1,19 @@
+body {
+  font-size: 16px;
+  background-image: url(../images/background.png);
+  background-size: 20%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+hr {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: visible;
+  border-top: 0.1em solid #000;
+}
