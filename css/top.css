@@ -1,0 +1,31 @@
+body {
+  font-size: 16px;
+  background-image: url(../images/background.png);
+  background-size: 20%;
+}
+
+h1 {
+  text-align:center;
+}
+
+h2 {
+  text-align: center;
+  color: royalblue;
+}
+
+p {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.bareisyo {
+  margin-right: 2em;
+}
