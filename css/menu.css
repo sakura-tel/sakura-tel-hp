@@ -3,6 +3,27 @@
   color: royalblue;
 }
 
+.light-theme {
+  background: #fff;
+  color: #333;
+}
+
+.dark-theme {
+  background: #000;
+  color: #ddd
+}
+
 li {
   margin-bottom: 1em;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #200E12;
+  }
+  li {
+    color: #F3E8CC;
+  }
 }

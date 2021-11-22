@@ -29,3 +29,18 @@ p {
 .bareisyo {
   margin-right: 2em;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url(../images/background_dark.png);
+    background-size: 20%;
+  }
+  
+  h1 {
+    color: #F3E8CC;
+  }
+
+  p {
+    color: #F3E8CC;
+  }
+}  

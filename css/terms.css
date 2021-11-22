@@ -17,3 +17,31 @@ hr {
   overflow: visible;
   border-top: 0.1em solid #000;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url(../images/background_dark.png);
+    background-size: 20%;
+  }
+  
+  h1 {
+    color: #F3E8CC;
+  }
+
+  h2 {
+    color: #F3E8CC;
+  }
+  
+  li {
+    color: #F3E8CC;
+  }
+
+  p {
+    color: #F3E8CC;
+  }
+
+  hr {
+    background-color: #F3E8CC;
+    color: #F3E8CC;
+  }
+}  
