@@ -30,6 +30,10 @@ p {
   margin-right: 2em;
 }
 
+a {
+  color: royalblue;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-image: url(../images/background_dark.png);

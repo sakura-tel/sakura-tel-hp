@@ -1,6 +1,6 @@
 .title {
   margin-left: 1.5em;
-  color: royalblue;
+  color: #AD2414;
 }
 
 .light-theme {
@@ -15,6 +15,11 @@
 
 li {
   margin-bottom: 1em;
+  color: #AD2414;
+}
+
+a {
+  color: royalblue;
 }
 
 
