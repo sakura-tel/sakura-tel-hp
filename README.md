@@ -1,2 +1,0 @@
-# SanctuarySakura
-Home page
