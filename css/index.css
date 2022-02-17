@@ -1,0 +1,63 @@
+body {
+  font-size: 16px;
+  background-image: url(../images/background.png);
+  background-size: 20%;
+}
+
+h1, h2, b, header, .sakura-tel_main {
+  text-align: center;
+}
+
+table, header, .sakura-tel_main {
+  margin: auto;
+}
+
+h2, a {
+  color: royalblue;
+}
+
+b {
+  font-size: 120%;
+}
+
+header, .sakura-tel_main {
+  width: 80%;
+}
+
+th, td {
+  width: 120px;
+}
+
+.fix > img {
+  width: 100%;
+  height: auto;
+}
+
+img[src="images/wordart.png"] {
+  max-width: 310px;
+  height: 75px;
+}
+
+img[src="images/bareisyosyamiko2.png"] {
+  max-width: 300px;
+}
+
+img[src="images/remitominemu.png"] {
+  max-width: 640px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sakura-tel_side {
+    background: #200E12;
+    color: #ddd;
+  }
+
+  body {
+    background-image: url(../images/background_dark.png);
+    background-size: 20%;
+  }
+
+  h1, p, b, table {
+    color: #F3E8CC;
+  }
+}
