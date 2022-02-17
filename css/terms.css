@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: royalblue;
+  color: #1e40a6;
 }
 
 hr {
@@ -30,6 +30,10 @@ article {
 
   h1, h2, li, p, hr {
     color: #F3E8CC;
+  }
+
+  a {
+    color: #718ee6;
   }
 
   hr {

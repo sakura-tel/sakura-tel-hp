@@ -13,7 +13,7 @@ table, header, .sakura-tel_main {
 }
 
 h2, a {
-  color: royalblue;
+  color: #1e40a6;
 }
 
 b {
@@ -55,6 +55,10 @@ img[src="images/remitominemu.png"] {
   body {
     background-image: url(../images/background_dark.png);
     background-size: 20%;
+  }
+
+  h2, a {
+    color: #718ee6;
   }
 
   h1, p, b, table {
