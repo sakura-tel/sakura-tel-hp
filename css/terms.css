@@ -4,9 +4,8 @@ body {
   background-size: 20%;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
+a {
+  color: royalblue;
 }
 
 hr {
@@ -18,8 +17,9 @@ hr {
   border-top: 0.1em solid #000;
 }
 
-a {
-  color: royalblue;
+article {
+  width: 80%;
+  margin: auto;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,25 +27,12 @@ a {
     background-image: url(../images/background_dark.png);
     background-size: 20%;
   }
-  
-  h1 {
-    color: #F3E8CC;
-  }
 
-  h2 {
-    color: #F3E8CC;
-  }
-  
-  li {
-    color: #F3E8CC;
-  }
-
-  p {
+  h1, h2, li, p, hr {
     color: #F3E8CC;
   }
 
   hr {
     background-color: #F3E8CC;
-    color: #F3E8CC;
   }
-}  
+}
