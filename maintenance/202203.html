@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>メンテナンスのお知らせ (2022.03)</title>
+  <style>
+    body {
+      font-family: 'sans-serif';
+      color: #333;
+    }
+    .container {
+      width: 80%;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    table {
+      text-align: center;
+      border-collapse: collapse;
+    }
+    td, th {
+      border: 1px solid #333;
+      padding: 5px;
+    }
+    .strong {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>メンテナンスのお知らせ (2022.03)</h1>
+    <p>昨今の国際情勢を鑑み、桜ヶ丘電信のリトアニアサーバーで運用しているインスタンスを、米国西海岸の新サーバーに移転する作業を行います。</p>
+    <section>
+      <h2>停止するサービス</h2>
+      <p>メンテナンス中は以下のサービスを停止します。ご迷惑をおかけしますが、ご理解とご協力をお願いいたします。</p>
+      <table>
+        <thead>
+          <tr>
+            <th>サービス名</th>
+            <th>停止予定日時</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a rel="service" href="https://chillout.chat">Chillout Chat</a></td>
+            <td class="strong">2022.03.02 13:00 ~ 19:00</td>
+          </tr>
+          <tr>
+            <td><a rel="service" href="https://pleroma.chillout.chat">Chillroma</a></td>
+            <td class="strong">2022.03.03 13:00 ~ 16:00</td>
+          </tr>
+          <tr>
+            <td><a rel="service" href="https://uma.milkey.homes">umaMilkey</a></td>
+            <td class="strong">2022.03.04 13:00 ~ 16:00</td>
+          </tr>
+          <tr>
+            <td><a rel="service" href="https://milkey.homes">Milkey</a></td>
+            <td class="strong">2022.03.05 13:00 ~ 19:00</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>メンテナンス中に時刻の変更等が生じた場合は、<a href="https://machikadon.online/@SanctuarySakura">@SanctuarySakura</a> よりお知らせいたします。</p>
+    </section>
+    <section>
+      <h2>代替サービスのご案内</h2>
+      <p>以下のサービスはメンテナンス中でもご利用いただけます。</p>
+      <table>
+        <thead>
+          <tr>
+            <th>サービス名</th>
+            <th>ソフトウェア</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a rel="service" href="https://machikadon.online">まちカdon</a></td>
+            <td>Mastodon</td>
+          </tr>
+          <tr>
+            <td><a rel="service" href="https://metaskey.net">Metaskey</a></td>
+            <td>Misskey v12</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>メンテナンスの手順</h2>
+      <p>メンテナンスは以下の手順に沿って実施されます。</p>
+      <ol>
+        <li>新サーバーにソフトウェアを実行する環境を構築し、メンテナンスモードに設定します。</li>
+        <li>旧サーバーのサービスを停止し、DNSレコードを新サーバーにあわせて変更します。</li>
+        <li>旧サーバーからデータベースとメディアファイルのバックアップを取得します。</li>
+        <li>バックアップを新サーバーに復元し、メンテナンスモードを解除します。</li>
+      </ol>
+    </section>
+    <footer>
+      <hr>
+      <p><a href="https://sakura.tel">トップページ</a></p>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="正当なCSSです!"></a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
