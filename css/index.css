@@ -24,7 +24,8 @@ header, .sakura-tel_main {
   width: 80%;
 }
 
-th, td {
+td, th {
+  padding: 5px;
   width: 120px;
 }
 
